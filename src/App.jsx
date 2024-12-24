@@ -11,7 +11,6 @@ function App() {
     pubblicato: false
   }
 
-
   let postProva = {
     id:"",
     titolo: "Prova",
@@ -35,7 +34,7 @@ function App() {
     let newListaPosts = [...listaPosts, newPost]
     setListaPosts(newListaPosts);
     setPost(protoPost)
-    console.log(newListaPosts)
+    // console.log(newListaPosts)
   }
 
   const removePost = (id) => {
@@ -58,7 +57,6 @@ function App() {
       </div>
     </div>)
   })
-
 
   const handleOnChange = (event) => {
     let newChiave = event.target.name;
